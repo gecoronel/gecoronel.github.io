@@ -7,7 +7,7 @@ publishDate: "2022-05-20T19:49:05+02:00"
 
 As an engineering student, I worked in my family's small school bus company until I graduated. Over time, I visualized different needs that parents of children transported on school buses might have. As a result of these needs, Donde Estan App was born.
 
-{{< figure src="/post/images/donde-estan-app.png" caption="Donde Estan App" >}}
+{{< figure src="/project/images/donde-estan-app.png" caption="Donde Estan App" >}}
 
 ● Necesity
 
@@ -86,7 +86,7 @@ mobile.
 5. The connection of the mobile application to the services was made
 deployed on AWS.
 
-{{< figure src="/post/images/architecture.png" caption="Architecture" >}}
+{{< figure src="/project/images/architecture.png" caption="Architecture" >}}
 
 ● Results - Conclusions
 
