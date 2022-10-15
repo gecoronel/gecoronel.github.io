@@ -1,0 +1,12 @@
+{{ partial "header" .}}
+
+<h1>{{ .Title }}</h1>
+<div class="tags">
+  {{ partial "experience/tags" .}}
+</div>
+
+<img title="{{.Title}}" alt="{{.Title}}" src="/experience/{{ .Params.Thumbnail }}" />
+
+{{ .Content }}
+
+{{ partial "footer" .}}

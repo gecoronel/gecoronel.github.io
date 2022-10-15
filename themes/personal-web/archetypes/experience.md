@@ -7,10 +7,5 @@ work: []
 techs: []
 designs: []
 thumbnail: 
-projectUrl: 
-testimonial:
-  name: 
-  role: 
-  image: 
-  text: 
+projectUrl:
 ---
