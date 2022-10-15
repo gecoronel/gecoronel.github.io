@@ -1,0 +1,7 @@
+baseURL = 'https://gecoronel.github.io/'
+languageCode = 'en-us'
+title = 'My Personal Web Site'
+theme = 'personal-web'
+enableEmoji = true
+
+
