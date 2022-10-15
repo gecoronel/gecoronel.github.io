@@ -4,8 +4,6 @@ description: This is the description of my experience in Rappi Inc.
 date: "2022-08-08"
 jobDate: "Aug 2022 - Present"
 work: [Golang]
-techs: [DesignArchitecture]
-designs: [Photoshop]
 thumbnail: rappi/rappi.png
 projectUrl: https://www.rappi.com
 ---

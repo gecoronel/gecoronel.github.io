@@ -4,8 +4,6 @@ description: This is the description of my experience in Mercado Libre
 date: "2021-01-18"
 jobDate: "Jan 2021 - Aug 2022"
 work: [Golang]
-techs: [Golang]
-designs: [Photoshop]
 thumbnail: mercado-libre/mercado-libre.jpeg
 projectUrl: https://www.mercadolibre.com
 ---

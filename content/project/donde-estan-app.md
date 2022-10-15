@@ -45,23 +45,26 @@ allows the sending and receiving of instant messaging between said users.
 
 ● Goals
 
-    ● General:
-        ○ Develop a mobile application that allows viewing the
-        geolocation of school transport and send
-        notifications between observed users and observers.
-    ● Specific:
-        ○ Design and develop the mobile application from the part of
-        the “observed users”.
-        ○ Design and develop the mobile application from the part of
-        the "observer users".
-        ○ Develop the web service for processing the
-        information between Android app and web server
-        (database).
-        ○ Develop a method for displaying the
-        geolocation of school vehicles, in order to obtain and
-        show your location in real time.
-        ○ Develop a method to integrate shipping and viewing
-        of automatic and massive notifications, in order to communicate.
+● General:
+
+○ Develop a mobile application that allows viewing the
+geolocation of school transport and send
+notifications between observed users and observers.
+
+● Specific:
+
+○ Design and develop the mobile application from the part of
+the “observed users”.
+○ Design and develop the mobile application from the part of
+the "observer users".
+○ Develop the web service for processing the
+information between Android app and web server
+(database).
+○ Develop a method for displaying the
+geolocation of school vehicles, in order to obtain and
+show your location in real time.
+○ Develop a method to integrate shipping and viewing
+of automatic and massive notifications, in order to communicate.
 
 ● Development
 
@@ -87,19 +90,21 @@ deployed on AWS.
 
 ● Results - Conclusions
 
-    • As a result of this work, a mobile application was obtained
-    Android that allows the visualization of the geolocation of
-    school vehicles and the sending of information in real time between
-    users through messaging and automatic notifications and
-    massive.
-    • It was possible to visualize the geolocation of the driver on a map, as well as
-    also the sending of automatic arrival notifications and
-    bulk overview notifications. In addition, it generated
-    a new communication channel through instant messaging
-    between users.
-    • At the same time, and exceeding the proposed objectives, it was possible
-    make the web service available on AWS.
-    • In the long term, this project could incorporate new languages,
-    make the application compatible with iOS devices, incorporate
-    authentication mechanisms via email and allow the registration of more
-    of a driver.
+• As a result of this work, a mobile application was obtained
+Android that allows the visualization of the geolocation of
+school vehicles and the sending of information in real time between
+users through messaging and automatic notifications and
+massive.
+
+• It was possible to visualize the geolocation of the driver on a map, as well as
+also the sending of automatic arrival notifications and bulk overview notifications. 
+In addition, it generated a new communication channel through instant messaging
+between users.
+
+• At the same time, and exceeding the proposed objectives, it was possible
+make the web service available on AWS.
+
+• In the long term, this project could incorporate new languages,
+make the application compatible with iOS devices, incorporate
+authentication mechanisms via email and allow the registration of more
+of a driver.
