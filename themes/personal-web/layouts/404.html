@@ -7,9 +7,9 @@
 {{ if .Site.Params.mainSections }}
   {{ $scratch := newScratch }}
   {{ if in .Site.Params.mainSections "experience" }}
-    {{ $scratch.Set "section" .Site.Params.sections.portfolio }}
+    {{ $scratch.Set "section" .Site.Params.sections.experience }}
   {{ else }}
-    {{ $scratch.Set "section" (.Site.Params.sections.post) }}
+    {{ $scratch.Set "section" (.Site.Params.sections.project) }}
   {{ end }}
 
   <p>While you're here, you can check out my last {{ $scratch.Get "section" }}:</p>
@@ -17,8 +17,8 @@
   {{ range first 1 $pages }}
     {{ if in .Site.Params.mainSections "experiencie" }}
       {{ partial "experience/item" .}}
-    {{ else if in .Site.Params.mainSections "post" }}
-      {{ partial "post/item" .}}
+    {{ else if in .Site.Params.mainSections "project" }}
+      {{ partial "project/item" .}}
     {{ end }}
   {{ end }}
 {{end}}

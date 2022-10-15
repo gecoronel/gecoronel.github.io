@@ -3,9 +3,9 @@
   <h1 id="title"> {{ .Title }}</h1>
   {{ .Content }}
 
-  <div class="post-list">
+  <div class="project-list">
     {{ range .Pages.ByPublishDate.Reverse }}
-      {{ partial "post/item" .}}
+      {{ partial "project/item" .}}
     {{ end }}
   </div>
 

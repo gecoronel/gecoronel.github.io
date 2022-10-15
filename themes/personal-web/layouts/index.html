@@ -8,8 +8,8 @@
   {{ range first 1 $pages }}
     {{ if in .Site.Params.mainSections "experience" }}
       {{ partial "experience/item" .}}
-    {{ else if in .Site.Params.mainSections "post" }}
-      {{ partial "post/item" .}}
+    {{ else if in .Site.Params.mainSections "project" }}
+      {{ partial "project/item" .}}
     {{ end }}
   {{ end }}
 
