@@ -1,5 +1,5 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: "{{ .Date }}"
+date: "2022-10-14"
 description:
 ---
